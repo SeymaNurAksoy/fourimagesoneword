@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E3E9CBEA313ECF654972C03 /* Pods_FourImageOneWord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CDE51F2AB430D52F999D04 /* Pods_FourImageOneWord.framework */; };
+		B61DE6E7268DCFF9002E0EFD /* RepositoryJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61DE6E6268DCFF9002E0EFD /* RepositoryJson.swift */; };
+		B61DE6E9268DD162002E0EFD /* SectionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61DE6E8268DD162002E0EFD /* SectionRowView.swift */; };
+		B61DE6EB268DDD74002E0EFD /* SectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61DE6EA268DDD74002E0EFD /* SectionListView.swift */; };
+		B61DE6ED268DDDDE002E0EFD /* SectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61DE6EC268DDDDE002E0EFD /* SectionDetail.swift */; };
+		B672FEDF2685BDA000776A0D /* FourImageOneWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672FEDE2685BDA000776A0D /* FourImageOneWordApp.swift */; };
+		B672FEE12685BDA000776A0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672FEE02685BDA000776A0D /* ContentView.swift */; };
+		B672FEE32685BDA100776A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B672FEE22685BDA100776A0D /* Assets.xcassets */; };
+		B672FEE62685BDA100776A0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B672FEE52685BDA100776A0D /* Preview Assets.xcassets */; };
+		B68E2533269D858F0082524C /* ModelFirebaseImagesAndWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68E2532269D858E0082524C /* ModelFirebaseImagesAndWords.swift */; };
+		B68F2008268F420100EF7797 /* imagesBank.json in Resources */ = {isa = PBXBuildFile; fileRef = B68F2007268F420000EF7797 /* imagesBank.json */; };
+		B694A37926941E6500E3C8DD /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694A37826941E6500E3C8DD /* SignInView.swift */; };
+		B694A37B26941EC300E3C8DD /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694A37A26941EC300E3C8DD /* SignUpView.swift */; };
+		B694A3802694277400E3C8DD /* SectionRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694A37F2694277400E3C8DD /* SectionRowViewModel.swift */; };
+		B694A3882694292A00E3C8DD /* RepositoryFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694A3872694292A00E3C8DD /* RepositoryFirebase.swift */; };
+		B694A38A26942DD800E3C8DD /* SectionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694A38926942DD800E3C8DD /* SectionListViewModel.swift */; };
+		B694A38C269430AA00E3C8DD /* ModelFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694A38B269430AA00E3C8DD /* ModelFirebase.swift */; };
+		B6D204D7268C56D4001A82D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6D204D6268C56D4001A82D0 /* GoogleService-Info.plist */; };
+		B6ED3379268B7FDA007C8DED /* ModelJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED3378268B7FDA007C8DED /* ModelJson.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71CDE51F2AB430D52F999D04 /* Pods_FourImageOneWord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FourImageOneWord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B276CB639478ED1B1EE2DEF /* Pods-FourImageOneWord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourImageOneWord.release.xcconfig"; path = "Target Support Files/Pods-FourImageOneWord/Pods-FourImageOneWord.release.xcconfig"; sourceTree = "<group>"; };
+		B61DE6E6268DCFF9002E0EFD /* RepositoryJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryJson.swift; sourceTree = "<group>"; };
+		B61DE6E8268DD162002E0EFD /* SectionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRowView.swift; sourceTree = "<group>"; };
+		B61DE6EA268DDD74002E0EFD /* SectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListView.swift; sourceTree = "<group>"; };
+		B61DE6EC268DDDDE002E0EFD /* SectionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDetail.swift; sourceTree = "<group>"; };
+		B672FEDB2685BDA000776A0D /* FourImageOneWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourImageOneWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B672FEDE2685BDA000776A0D /* FourImageOneWordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourImageOneWordApp.swift; sourceTree = "<group>"; };
+		B672FEE02685BDA000776A0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B672FEE22685BDA100776A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B672FEE52685BDA100776A0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B672FEE72685BDA100776A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68E2532269D858E0082524C /* ModelFirebaseImagesAndWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFirebaseImagesAndWords.swift; sourceTree = "<group>"; };
+		B68F2007268F420000EF7797 /* imagesBank.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = imagesBank.json; sourceTree = "<group>"; };
+		B694A37826941E6500E3C8DD /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		B694A37A26941EC300E3C8DD /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B694A37F2694277400E3C8DD /* SectionRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRowViewModel.swift; sourceTree = "<group>"; };
+		B694A3872694292A00E3C8DD /* RepositoryFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryFirebase.swift; sourceTree = "<group>"; };
+		B694A38926942DD800E3C8DD /* SectionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListViewModel.swift; sourceTree = "<group>"; };
+		B694A38B269430AA00E3C8DD /* ModelFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFirebase.swift; sourceTree = "<group>"; };
+		B6D204D6268C56D4001A82D0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6D204D8268C8758001A82D0 /* FourImageOneWord.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FourImageOneWord.entitlements; sourceTree = "<group>"; };
+		B6ED3378268B7FDA007C8DED /* ModelJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelJson.swift; sourceTree = "<group>"; };
+		E8BEBE6E8BED728F04576CAF /* Pods-FourImageOneWord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourImageOneWord.debug.xcconfig"; path = "Target Support Files/Pods-FourImageOneWord/Pods-FourImageOneWord.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B672FED82685BDA000776A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3E9CBEA313ECF654972C03 /* Pods_FourImageOneWord.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741333364C5677A19286A5ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8BEBE6E8BED728F04576CAF /* Pods-FourImageOneWord.debug.xcconfig */,
+				7B276CB639478ED1B1EE2DEF /* Pods-FourImageOneWord.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B61DE6EE268DE2C2002E0EFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B61DE6E8268DD162002E0EFD /* SectionRowView.swift */,
+				B61DE6EA268DDD74002E0EFD /* SectionListView.swift */,
+				B61DE6EC268DDDDE002E0EFD /* SectionDetail.swift */,
+				B694A37826941E6500E3C8DD /* SignInView.swift */,
+				B694A37A26941EC300E3C8DD /* SignUpView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B61DE6EF268DE2E7002E0EFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B68F2007268F420000EF7797 /* imagesBank.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B61DE6F0268DE33C002E0EFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED3378268B7FDA007C8DED /* ModelJson.swift */,
+				B694A38B269430AA00E3C8DD /* ModelFirebase.swift */,
+				B68E2532269D858E0082524C /* ModelFirebaseImagesAndWords.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B672FED22685BDA000776A0D = {
+			isa = PBXGroup;
+			children = (
+				B672FEDD2685BDA000776A0D /* FourImageOneWord */,
+				B672FEDC2685BDA000776A0D /* Products */,
+				741333364C5677A19286A5ED /* Pods */,
+				F91AADBAB73B1F7EA44F1855 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B672FEDC2685BDA000776A0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B672FEDB2685BDA000776A0D /* FourImageOneWord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B672FEDD2685BDA000776A0D /* FourImageOneWord */ = {
+			isa = PBXGroup;
+			children = (
+				B694A382269427C000E3C8DD /* Repositories */,
+				B694A37E2694274B00E3C8DD /* ViewModels */,
+				B61DE6F0268DE33C002E0EFD /* Model */,
+				B61DE6EF268DE2E7002E0EFD /* Resources */,
+				B61DE6EE268DE2C2002E0EFD /* Views */,
+				B672FEE02685BDA000776A0D /* ContentView.swift */,
+				B672FEDE2685BDA000776A0D /* FourImageOneWordApp.swift */,
+				B672FEE22685BDA100776A0D /* Assets.xcassets */,
+				B672FEE72685BDA100776A0D /* Info.plist */,
+				B6D204D6268C56D4001A82D0 /* GoogleService-Info.plist */,
+				B6D204D8268C8758001A82D0 /* FourImageOneWord.entitlements */,
+				B672FEE42685BDA100776A0D /* Preview Content */,
+			);
+			path = FourImageOneWord;
+			sourceTree = "<group>";
+		};
+		B672FEE42685BDA100776A0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B672FEE52685BDA100776A0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B694A37E2694274B00E3C8DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B694A37F2694277400E3C8DD /* SectionRowViewModel.swift */,
+				B694A38926942DD800E3C8DD /* SectionListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B694A382269427C000E3C8DD /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				B694A3872694292A00E3C8DD /* RepositoryFirebase.swift */,
+				B61DE6E6268DCFF9002E0EFD /* RepositoryJson.swift */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		F91AADBAB73B1F7EA44F1855 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71CDE51F2AB430D52F999D04 /* Pods_FourImageOneWord.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B672FEDA2685BDA000776A0D /* FourImageOneWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B672FEEA2685BDA100776A0D /* Build configuration list for PBXNativeTarget "FourImageOneWord" */;
+			buildPhases = (
+				2306CB4C13080299AC44780D /* [CP] Check Pods Manifest.lock */,
+				B672FED72685BDA000776A0D /* Sources */,
+				B672FED82685BDA000776A0D /* Frameworks */,
+				B672FED92685BDA000776A0D /* Resources */,
+				C8CB890F2CD9628B7A9068FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FourImageOneWord;
+			productName = FourImageOneWord;
+			productReference = B672FEDB2685BDA000776A0D /* FourImageOneWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B672FED32685BDA000776A0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B672FEDA2685BDA000776A0D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = B672FED62685BDA000776A0D /* Build configuration list for PBXProject "FourImageOneWord" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B672FED22685BDA000776A0D;
+			productRefGroup = B672FEDC2685BDA000776A0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B672FEDA2685BDA000776A0D /* FourImageOneWord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B672FED92685BDA000776A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B672FEE62685BDA100776A0D /* Preview Assets.xcassets in Resources */,
+				B6D204D7268C56D4001A82D0 /* GoogleService-Info.plist in Resources */,
+				B672FEE32685BDA100776A0D /* Assets.xcassets in Resources */,
+				B68F2008268F420100EF7797 /* imagesBank.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2306CB4C13080299AC44780D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FourImageOneWord-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8CB890F2CD9628B7A9068FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FourImageOneWord/Pods-FourImageOneWord-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FourImageOneWord/Pods-FourImageOneWord-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FourImageOneWord/Pods-FourImageOneWord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B672FED72685BDA000776A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B694A37926941E6500E3C8DD /* SignInView.swift in Sources */,
+				B6ED3379268B7FDA007C8DED /* ModelJson.swift in Sources */,
+				B694A38A26942DD800E3C8DD /* SectionListViewModel.swift in Sources */,
+				B672FEE12685BDA000776A0D /* ContentView.swift in Sources */,
+				B61DE6E7268DCFF9002E0EFD /* RepositoryJson.swift in Sources */,
+				B672FEDF2685BDA000776A0D /* FourImageOneWordApp.swift in Sources */,
+				B694A37B26941EC300E3C8DD /* SignUpView.swift in Sources */,
+				B694A38C269430AA00E3C8DD /* ModelFirebase.swift in Sources */,
+				B68E2533269D858F0082524C /* ModelFirebaseImagesAndWords.swift in Sources */,
+				B61DE6E9268DD162002E0EFD /* SectionRowView.swift in Sources */,
+				B694A3882694292A00E3C8DD /* RepositoryFirebase.swift in Sources */,
+				B61DE6ED268DDDDE002E0EFD /* SectionDetail.swift in Sources */,
+				B694A3802694277400E3C8DD /* SectionRowViewModel.swift in Sources */,
+				B61DE6EB268DDD74002E0EFD /* SectionListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B672FEE82685BDA100776A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B672FEE92685BDA100776A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B672FEEB2685BDA100776A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8BEBE6E8BED728F04576CAF /* Pods-FourImageOneWord.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FourImageOneWord/FourImageOneWord.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FourImageOneWord/Preview Content\"";
+				DEVELOPMENT_TEAM = 5A7BJ3H9XQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FourImageOneWord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FourImageOneWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B672FEEC2685BDA100776A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B276CB639478ED1B1EE2DEF /* Pods-FourImageOneWord.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FourImageOneWord/FourImageOneWord.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FourImageOneWord/Preview Content\"";
+				DEVELOPMENT_TEAM = 5A7BJ3H9XQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FourImageOneWord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FourImageOneWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B672FED62685BDA000776A0D /* Build configuration list for PBXProject "FourImageOneWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B672FEE82685BDA100776A0D /* Debug */,
+				B672FEE92685BDA100776A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B672FEEA2685BDA100776A0D /* Build configuration list for PBXNativeTarget "FourImageOneWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B672FEEB2685BDA100776A0D /* Debug */,
+				B672FEEC2685BDA100776A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B672FED32685BDA000776A0D /* Project object */;
+}
